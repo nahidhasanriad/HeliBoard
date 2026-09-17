@@ -259,6 +259,35 @@ f""", // no newline at the end
     }]]""", Expected('.'.code, ".", popups = listOf(">").map { it to it.first().code }))
     }
 
+    @Test fun shiftSelectorUppercaseLabels() {
+        val content = """[[{ "$": "shift_state_selector",
+            "shifted": { "label": "Q", "labelFlags": 1073741824 },
+            "default": { "label": "q" } }]]"""
+        val originalId = params.mId
+
+        params.mId = KeyboardLayoutSet.getFakeKeyboardId(KeyboardId.ELEMENT_ALPHABET)
+        var key = LayoutParser.parseJsonString(content).flatten().mapNotNull { it.compute(params) }.first().toKeyParams(params)
+        assertEquals("q", key.mLabel)
+        assertEquals('q'.code, key.mCode)
+
+        params.mId = KeyboardLayoutSet.getFakeKeyboardId(KeyboardId.ELEMENT_ALPHABET_MANUAL_SHIFTED)
+        key = LayoutParser.parseJsonString(content).flatten().mapNotNull { it.compute(params) }.first().toKeyParams(params)
+        assertEquals("Q", key.mLabel)
+        assertEquals('Q'.code, key.mCode)
+
+        params.mId = KeyboardLayoutSet.getFakeKeyboardId(KeyboardId.ELEMENT_ALPHABET_AUTOMATIC_SHIFTED)
+        key = LayoutParser.parseJsonString(content).flatten().mapNotNull { it.compute(params) }.first().toKeyParams(params)
+        assertEquals("Q", key.mLabel)
+        assertEquals('Q'.code, key.mCode)
+
+        params.mId = KeyboardLayoutSet.getFakeKeyboardId(KeyboardId.ELEMENT_ALPHABET_SHIFT_LOCKED)
+        key = LayoutParser.parseJsonString(content).flatten().mapNotNull { it.compute(params) }.first().toKeyParams(params)
+        assertEquals("Q", key.mLabel)
+        assertEquals('Q'.code, key.mCode)
+
+        params.mId = originalId
+    }
+
     @Test fun nestedSelectors() {
         assertIsExpected("""[[{ "$": "shift_state_selector",
       "shiftedManual": { "code":   34, "label": "\"", "popup": {

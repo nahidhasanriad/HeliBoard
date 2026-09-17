@@ -1,0 +1,528 @@
+[
+  [
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "Q",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "%"
+          }
+        }
+      },
+      "default": {
+        "label": "q",
+        "popup": {
+          "main": {
+            "label": "%"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "W",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "\\"
+          }
+        }
+      },
+      "default": {
+        "label": "w",
+        "popup": {
+          "main": {
+            "label": "\\"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "E",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "|"
+          }
+        }
+      },
+      "default": {
+        "label": "e",
+        "popup": {
+          "main": {
+            "label": "|"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "R",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "="
+          }
+        }
+      },
+      "default": {
+        "label": "r",
+        "popup": {
+          "main": {
+            "label": "="
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "T",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "["
+          }
+        }
+      },
+      "default": {
+        "label": "t",
+        "popup": {
+          "main": {
+            "label": "["
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "Y",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "]"
+          }
+        }
+      },
+      "default": {
+        "label": "y",
+        "popup": {
+          "main": {
+            "label": "]"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "U",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "<"
+          }
+        }
+      },
+      "default": {
+        "label": "u",
+        "popup": {
+          "main": {
+            "label": "<"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "I",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": ">"
+          }
+        }
+      },
+      "default": {
+        "label": "i",
+        "popup": {
+          "main": {
+            "label": ">"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "O",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "{"
+          }
+        }
+      },
+      "default": {
+        "label": "o",
+        "popup": {
+          "main": {
+            "label": "{"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "P",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "}"
+          }
+        }
+      },
+      "default": {
+        "label": "p",
+        "popup": {
+          "main": {
+            "label": "}"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "A",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "@"
+          }
+        }
+      },
+      "default": {
+        "label": "a",
+        "popup": {
+          "main": {
+            "label": "@"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "S",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "#"
+          }
+        }
+      },
+      "default": {
+        "label": "s",
+        "popup": {
+          "main": {
+            "label": "#"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "D",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "$"
+          }
+        }
+      },
+      "default": {
+        "label": "d",
+        "popup": {
+          "main": {
+            "label": "$"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "F",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "_"
+          }
+        }
+      },
+      "default": {
+        "label": "f",
+        "popup": {
+          "main": {
+            "label": "_"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "G",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "&"
+          }
+        }
+      },
+      "default": {
+        "label": "g",
+        "popup": {
+          "main": {
+            "label": "&"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "H",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "-"
+          }
+        }
+      },
+      "default": {
+        "label": "h",
+        "popup": {
+          "main": {
+            "label": "-"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "J",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "+"
+          }
+        }
+      },
+      "default": {
+        "label": "j",
+        "popup": {
+          "main": {
+            "label": "+"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "K",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "("
+          }
+        }
+      },
+      "default": {
+        "label": "k",
+        "popup": {
+          "main": {
+            "label": "("
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "L",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": ")"
+          }
+        }
+      },
+      "default": {
+        "label": "l",
+        "popup": {
+          "main": {
+            "label": ")"
+          }
+        }
+      }
+    }
+  ],
+  [
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "Z",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "*"
+          }
+        }
+      },
+      "default": {
+        "label": "z",
+        "popup": {
+          "main": {
+            "label": "*"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "X",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "\""
+          }
+        }
+      },
+      "default": {
+        "label": "x",
+        "popup": {
+          "main": {
+            "label": "\""
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "C",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "'"
+          }
+        }
+      },
+      "default": {
+        "label": "c",
+        "popup": {
+          "main": {
+            "label": "'"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "V",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": ":"
+          }
+        }
+      },
+      "default": {
+        "label": "v",
+        "popup": {
+          "main": {
+            "label": ":"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "B",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": ";"
+          }
+        }
+      },
+      "default": {
+        "label": "b",
+        "popup": {
+          "main": {
+            "label": ";"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "N",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "!"
+          }
+        }
+      },
+      "default": {
+        "label": "n",
+        "popup": {
+          "main": {
+            "label": "!"
+          }
+        }
+      }
+    },
+    {
+      "$": "shift_state_selector",
+      "shifted": {
+        "label": "M",
+        "labelFlags": 65536,
+        "popup": {
+          "main": {
+            "label": "?"
+          }
+        }
+      },
+      "default": {
+        "label": "m",
+        "popup": {
+          "main": {
+            "label": "?"
+          }
+        }
+      }
+    }
+  ]
+]

@@ -329,7 +329,7 @@ class KeyboardParser(private val params: KeyboardParams, private val context: Co
 
     // some layouts have numbers hardcoded in the main layout (pcqwerty as keys, and others as popups)
     private fun hasBuiltInNumbers() = when (params.mId.mSubtype.mainLayoutName) {
-        "pcqwerty" -> true
+        "pcqwerty", "avro" -> true // avro is Avro Phonetic, which uses a Latin layout with popup hint keys
         "lao", "thai", "korean_sebeolsik_390", "korean_sebeolsik_final" -> params.mPopupKeyOrder.contains(POPUP_KEYS_LAYOUT)
         else -> false
     }
